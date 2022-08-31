@@ -37,16 +37,26 @@
 
         nav{
             float: right;
-            margin-top: 15px;
+            margin-top: 5px;
+            float: right;
         }
 
         a{
+            display: inline-block;
             text-decoration: none;
             font-size: 20px;
             line-height: 20px;
             color: #9E9E9E;
-            margin-left: 30px;
-            
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 3px solid transparent;
+            border-radius: 18px;
+        }
+
+        a+a{
+            margin-left: 5px;
         }
 
         a:hover{
@@ -96,7 +106,7 @@
                 <a href="#">Tracks</a>
                 <a href="#">Library</a>
                 <a href="#">Comunity</a>
-                <a href="#">Sign in</a>
+                <a href="#" style="border-color: #9E9E9E; text-transform: uppercase; margin-left: 25px;">Sign in</a>
             </nav>
         </header>
         <section>
